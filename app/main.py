@@ -823,7 +823,7 @@ def run_ai_stage(
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/Kontrakevich/MarinsFasad",
+            "HTTP-Referer": "https://github.com/mkontrakevich/MarinsFasad",
             "X-Title": "Marins Fasad Control Center",
         },
         method="POST",

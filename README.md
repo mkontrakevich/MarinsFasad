@@ -1,6 +1,6 @@
 # Marins Facade Control Center v0.6.8
 
-[![Открыть в GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/Kontrakevich/MarinsFasad?quickstart=1)
+[![Открыть в GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/mkontrakevich/MarinsFasad?quickstart=1)
 
 Стабильная staged-сборка системы управления генерацией и согласованием фасадных решений. Исходный runtime `v0.6.0` автоматически обновляется патчами до фактической версии `v0.6.8` при выполнении setup-скрипта.
 

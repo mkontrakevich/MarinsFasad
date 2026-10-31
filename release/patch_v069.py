@@ -98,7 +98,7 @@ def _mf069_ai_adapt_comment(comment: str, stage: str) -> dict:
         'reframe or alter approved geometry. Return only the instruction, no headings or explanation.'
     )
     body = _mf069_json.dumps({'model': model, 'messages': [{'role': 'system', 'content': system}, {'role': 'user', 'content': f'Stage: {stage}\nComment: {clean}'}], 'temperature': 0.1}).encode('utf-8')
-    req = _mf069_urllib.Request('https://openrouter.ai/api/v1/chat/completions', data=body, method='POST', headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json', 'HTTP-Referer': 'https://github.com/Kontrakevich/MarinsFasad', 'X-Title': 'Marins Facade Control Center'})
+    req = _mf069_urllib.Request('https://openrouter.ai/api/v1/chat/completions', data=body, method='POST', headers={'Authorization': f'Bearer {api_key}', 'Content-Type': 'application/json', 'HTTP-Referer': 'https://github.com/mkontrakevich/MarinsFasad', 'X-Title': 'Marins Facade Control Center'})
     try:
         with _mf069_urllib.urlopen(req, timeout=45) as response:
             data = _mf069_json.loads(response.read().decode('utf-8'))

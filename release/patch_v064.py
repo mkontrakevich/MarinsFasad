@@ -178,7 +178,7 @@ def _mf_openrouter_generate(source: _mf_Path, prompt: str) -> tuple[bytes, str, 
         headers={
             "Authorization": f"Bearer {api_key}",
             "Content-Type": "application/json",
-            "HTTP-Referer": "https://github.com/Kontrakevich/MarinsFasad",
+            "HTTP-Referer": "https://github.com/mkontrakevich/MarinsFasad",
             "X-Title": "Marins Facade Control Center",
         },
         method="POST",
